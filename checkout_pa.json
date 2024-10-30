@@ -1,0 +1,105 @@
+{
+    "abell": [
+        {
+            "id_produk": 1,
+            "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+            "tanggal_mulai": "2024-10-30 22:22:24",
+            "tanggal_kembali": "2024-11-12 00:00:00",
+            "jumlah_hari": 13,
+            "harga_awal": 1125000,
+            "diskon": 112500.0,
+            "persen_diskon": 10,
+            "harga_akhir": 1012500.0,
+            "kategori": "Kamera"
+        },
+        {
+            "id_produk": 3,
+            "nama_produk": "Panasonic Lumix G 14mm f/2.5 ASPH (M43 Panasonic)",
+            "tanggal_mulai": "2024-10-30 22:23:12",
+            "tanggal_kembali": "2024-11-12 00:00:00",
+            "jumlah_hari": 13,
+            "harga_awal": 450000,
+            "diskon": 45000.0,
+            "persen_diskon": 10,
+            "harga_akhir": 405000.0,
+            "kategori": "Lensa"
+        },
+        {
+            "id_produk": 2,
+            "nama_produk": "DSLR Nikon D7200",
+            "tanggal_mulai": "2024-10-30 22:32:54",
+            "jumlah_hari": 30,
+            "harga_awal": 1600000,
+            "diskon": 160000.0,
+            "persen_diskon": 10,
+            "harga_akhir": 1440000.0,
+            "kategori": "Kamera"
+        },
+        {
+            "id_produk": 1,
+            "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+            "kategori": "Kamera",
+            "tanggal_mulai": "2024-12-30 00:00:00",
+            "durasi": 30,
+            "harga_awal": 2500000,
+            "diskon_persen": 20.0,
+            "diskon_nominal": 500000.0,
+            "harga_akhir": 2000000.0
+        },
+        {
+            "id_produk": 4,
+            "nama_produk": "GoPro Hero 9 Black Action (5K)",
+            "kategori": "Kamera",
+            "tanggal_mulai": "2024-12-30 00:00:00",
+            "durasi": 30,
+            "harga_awal": 5000000,
+            "diskon_persen": 20.0,
+            "diskon_nominal": 1000000.0,
+            "harga_akhir": 4000000.0
+        },
+        {
+            "id_produk": 2,
+            "nama_produk": "DSLR Nikon D7200",
+            "kategori": "Kamera",
+            "harga_per_hari": 200000,
+            "harga_per_3_hari": 400000
+        },
+        {
+            "id_produk": 1,
+            "nama_produk": "Canon EF 14mm f/2.8 L II USM Lens",
+            "kategori": "Lensa",
+            "harga_per_hari": 250000,
+            "harga_per_3_hari": 500000
+        },
+        {
+            "id_produk": 3,
+            "nama_produk": "RED Epic-X Acc - Sachtler Video 20 S1 HD MCF",
+            "kategori": "Tripod",
+            "harga_per_hari": 250000,
+            "harga_per_3_hari": 500000
+        },
+        {
+            "id_produk": 2,
+            "nama_produk": "Zeiss Otus T* 55mm f/1,4 ZE-mount for Canon",
+            "kategori": "Lensa",
+            "harga_per_hari": 400000,
+            "harga_per_3_hari": 800000
+        },
+        {
+            "id_produk": 1,
+            "nama_produk": "Monopod Video Benro S4",
+            "kategori": "Tripod",
+            "harga_per_hari": 50000,
+            "harga_per_3_hari": 100000
+        },
+        {
+            "id_produk": 3,
+            "nama_produk": "Techart TZE-01 Sony E to Z-mount AutoFocus Lens Adapter",
+            "kategori": "Aksesoris",
+            "harga_per_hari": 125000,
+            "harga_per_3_hari": 250000
+        }
+    ],
+    "test1234": [],
+    "test55": []
+}

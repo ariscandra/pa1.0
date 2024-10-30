@@ -1,0 +1,112 @@
+[
+    {
+        "ID": 1,
+        "Nama Lengkap": "Sayyida Zakiya Nur S. F. A.",
+        "Email": "abel@gmail.com",
+        "No. HP": "0821121212123",
+        "Username": "abel",
+        "Password": "aris123",
+        "Tanggal Registrasi": "27-10-2024 13:20:12",
+        "Saldo": 0
+    },
+    {
+        "ID": 2,
+        "Nama Lengkap": "Abelia Nur",
+        "Email": "abel@icloud.com",
+        "No. HP": "987654345678",
+        "Username": "abel123",
+        "Password": "gugugaga",
+        "Tanggal Registrasi": "28-10-2024 19:25:32",
+        "Saldo": 0
+    },
+    {
+        "ID": 3,
+        "Nama Lengkap": "testabel",
+        "Email": "testabel@gmail.com",
+        "No. HP": "090900912133",
+        "Username": "abell",
+        "Password": "abell12",
+        "Tanggal Registrasi": "29-10-2024 11:26:30",
+        "Saldo": 25615156
+    },
+    {
+        "ID": 4,
+        "Nama Lengkap": "test122",
+        "Email": "testeee@gmail.com",
+        "No. HP": "082121212112",
+        "Username": "test122",
+        "Password": "test",
+        "Tanggal Registrasi": "29-10-2024 11:41:02",
+        "Saldo": 0
+    },
+    {
+        "ID": 5,
+        "Nama Lengkap": "rehankebab",
+        "Email": "baksogoreng@gmail.com",
+        "No. HP": "081365478236",
+        "Username": "monsterijo",
+        "Password": "beruang",
+        "Tanggal Registrasi": "30-10-2024 15:30:53",
+        "Saldo": 10000000
+    },
+    {
+        "ID": 6,
+        "Nama Lengkap": "Raihan Fariz",
+        "Email": "raihan@gmail.com",
+        "No. HP": "090909090909",
+        "Username": "raihan",
+        "Password": "test",
+        "Tanggal Registrasi": "30-10-2024 17:19:56",
+        "Saldo": 1000000
+    },
+    {
+        "ID": 7,
+        "Nama Lengkap": "test3",
+        "Email": "test3@gmail.com",
+        "No. HP": "080808080808",
+        "Username": "test3",
+        "Password": "test3",
+        "Tanggal Registrasi": "30-10-2024 17:48:08",
+        "Saldo": 0
+    },
+    {
+        "ID": 8,
+        "Nama Lengkap": "test44",
+        "Email": "test4@gmail.com",
+        "No. HP": "08098987876765",
+        "Username": "test4",
+        "Password": "test4",
+        "Tanggal Registrasi": "30-10-2024 19:43:09",
+        "Saldo": 0
+    },
+    {
+        "ID": 9,
+        "Nama Lengkap": "Muhammad Romadhoni Alfatih",
+        "Email": "drextor1977@gmail.com",
+        "No. HP": "081349017220",
+        "Username": "Doni",
+        "Password": "doni123",
+        "Tanggal Registrasi": "30-10-2024 20:46:44",
+        "Saldo": 0
+    },
+    {
+        "ID": 10,
+        "Nama Lengkap": "test123",
+        "Email": "test123@gmail.com",
+        "No. HP": "08080808080",
+        "Username": "test1234",
+        "Password": "09876",
+        "Tanggal Registrasi": "31-10-2024 00:16:53",
+        "Saldo": 325000.0
+    },
+    {
+        "ID": 11,
+        "Nama Lengkap": "test5",
+        "Email": "test5@gmail.com",
+        "No. HP": "081212121212",
+        "Username": "test55",
+        "Password": "test55",
+        "Tanggal Registrasi": "31-10-2024 02:21:09",
+        "Saldo": 5198750.0
+    }
+]

@@ -1,0 +1,352 @@
+[
+    {
+        "username": "abell",
+        "waktu": "29-10-2024 20:55:43",
+        "total_harga": 250000,
+        "items": [
+            {
+                "id_produk": 1,
+                "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+                "jumlah_hari": 3,
+                "harga": 250000,
+                "kategori": "Kamera"
+            }
+        ]
+    },
+    {
+        "username": "raihan",
+        "waktu": "30-10-2024 17:22:27",
+        "total_harga": 1000000,
+        "items": [
+            {
+                "id_produk": 1,
+                "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+                "jumlah_hari": 12,
+                "harga": 1000000,
+                "kategori": "Kamera"
+            }
+        ]
+    },
+    {
+        "id_transaksi": "BS0E3OD3ES",
+        "username": "test1234",
+        "waktu_transaksi": "31-10-2024 00:18:11",
+        "tanggal_kembali": "12-11-2024",
+        "durasi": 12,
+        "total_harga": 1800000.0,
+        "items": [
+            {
+                "id_produk": 2,
+                "nama_produk": "DSLR Nikon D7200",
+                "kategori": "Kamera",
+                "harga_per_hari": 200000,
+                "harga_per_3_hari": 400000,
+                "durasi": 12,
+                "harga_awal": 1600000,
+                "diskon_persen": 10,
+                "diskon_nominal": 160000.0,
+                "harga_akhir": 1440000.0
+            },
+            {
+                "id_produk": 3,
+                "nama_produk": "Panasonic Lumix G 14mm f/2.5 ASPH (M43 Panasonic)",
+                "kategori": "Lensa",
+                "harga_per_hari": 50000,
+                "harga_per_3_hari": 100000,
+                "durasi": 12,
+                "harga_awal": 400000,
+                "diskon_persen": 10,
+                "diskon_nominal": 40000.0,
+                "harga_akhir": 360000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "8ZN7Z7S53S",
+        "username": "test1234",
+        "waktu_transaksi": "31-10-2024 00:29:03",
+        "tanggal_kembali": "11-11-2024",
+        "durasi": 11,
+        "total_harga": 1620000.0,
+        "items": [
+            {
+                "id_produk": 3,
+                "nama_produk": "Sony NEX VG-20 Handycam Video Camcorder (APSC)",
+                "kategori": "Kamera",
+                "harga_per_hari": 225000,
+                "harga_per_3_hari": 450000,
+                "durasi": 11,
+                "harga_awal": 1800000,
+                "diskon_persen": 10,
+                "diskon_nominal": 180000.0,
+                "harga_akhir": 1620000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "JIQ6FVNKXB",
+        "username": "test1234",
+        "waktu_transaksi": "31-10-2024 01:22:07",
+        "tanggal_kembali": "12-11-2024",
+        "durasi": 12,
+        "total_harga": 1620000.0,
+        "items": [
+            {
+                "id_produk": 3,
+                "nama_produk": "Sony NEX VG-20 Handycam Video Camcorder (APSC)",
+                "kategori": "Kamera",
+                "harga_per_hari": 225000,
+                "harga_per_3_hari": 450000,
+                "durasi": 12,
+                "harga_awal": 1800000,
+                "diskon_persen": 10,
+                "diskon_nominal": 180000.0,
+                "harga_akhir": 1620000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "RC43KJ0NI6",
+        "username": "test1234",
+        "waktu_transaksi": "31-10-2024 01:23:38",
+        "tanggal_kembali": "20-11-2024",
+        "durasi": 20,
+        "total_harga": 2835000.0,
+        "items": [
+            {
+                "id_produk": 3,
+                "nama_produk": "Sony NEX VG-20 Handycam Video Camcorder (APSC)",
+                "kategori": "Kamera",
+                "harga_per_hari": 225000,
+                "harga_per_3_hari": 450000,
+                "durasi": 20,
+                "harga_awal": 3150000,
+                "diskon_persen": 10,
+                "diskon_nominal": 315000.0,
+                "harga_akhir": 2835000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "6TEVLCOBIE",
+        "username": "test1234",
+        "waktu_transaksi": "31-10-2024 01:44:29",
+        "tanggal_kembali": "12-11-2024",
+        "durasi": 12,
+        "total_harga": 1800000.0,
+        "items": [
+            {
+                "id_produk": 1,
+                "nama_produk": "Canon EF 14mm f/2.8 L II USM Lens",
+                "kategori": "Lensa",
+                "harga_per_hari": 250000,
+                "harga_per_3_hari": 500000,
+                "durasi": 12,
+                "harga_awal": 2000000,
+                "diskon_persen": 10,
+                "diskon_nominal": 200000.0,
+                "harga_akhir": 1800000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "GR0736XDAI",
+        "username": "test55",
+        "waktu_transaksi": "31-10-2024 02:28:46",
+        "tanggal_kembali": "12-11-2024",
+        "durasi": 12,
+        "total_harga": 3240000.0,
+        "items": [
+            {
+                "id_produk": 2,
+                "nama_produk": "Tripod Video SECCED Reach plus 3 Kit (100mm bowl head)",
+                "kategori": "Tripod",
+                "harga_per_hari": 200000,
+                "harga_per_3_hari": 400000,
+                "durasi": 12,
+                "harga_awal": 1600000,
+                "diskon_persen": 10,
+                "diskon_nominal": 160000.0,
+                "harga_akhir": 1440000.0
+            },
+            {
+                "id_produk": 3,
+                "nama_produk": "Sony NEX VG-20 Handycam Video Camcorder (APSC)",
+                "kategori": "Kamera",
+                "harga_per_hari": 225000,
+                "harga_per_3_hari": 450000,
+                "durasi": 12,
+                "harga_awal": 1800000,
+                "diskon_persen": 10,
+                "diskon_nominal": 180000.0,
+                "harga_akhir": 1620000.0
+            },
+            {
+                "id_produk": 5,
+                "nama_produk": "Sony Charger BC-QZ1 for NP-FZ100 Battery (A9 / A7III / A7RIII / A7R IV / A7S III / A7C / A6600)",
+                "kategori": "Aksesoris",
+                "harga_per_hari": 25000,
+                "harga_per_3_hari": 50000,
+                "durasi": 12,
+                "harga_awal": 200000,
+                "diskon_persen": 10,
+                "diskon_nominal": 20000.0,
+                "harga_akhir": 180000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "OVEF65VWND",
+        "username": "test55",
+        "waktu_transaksi": "31-10-2024 02:30:33",
+        "tanggal_kembali": "12-11-2024",
+        "durasi": 12,
+        "total_harga": 900000.0,
+        "items": [
+            {
+                "id_produk": 1,
+                "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+                "kategori": "Kamera",
+                "harga_per_hari": 125000,
+                "harga_per_3_hari": 250000,
+                "durasi": 12,
+                "harga_awal": 1000000,
+                "diskon_persen": 10,
+                "diskon_nominal": 100000.0,
+                "harga_akhir": 900000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "B6B58EBQSJ",
+        "username": "test55",
+        "waktu_transaksi": "31-10-2024 02:33:17",
+        "tanggal_kembali": "12-11-2024",
+        "durasi": 12,
+        "total_harga": 900000.0,
+        "items": [
+            {
+                "id_produk": 1,
+                "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+                "kategori": "Kamera",
+                "harga_per_hari": 125000,
+                "harga_per_3_hari": 250000,
+                "durasi": 12,
+                "harga_awal": 1000000,
+                "diskon_persen": 10,
+                "diskon_nominal": 100000.0,
+                "harga_akhir": 900000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "RAU5ONRXRN",
+        "username": "test55",
+        "waktu_transaksi": "31-10-2024 02:34:29",
+        "tanggal_kembali": "05-11-2024",
+        "durasi": 5,
+        "total_harga": 475000.0,
+        "items": [
+            {
+                "id_produk": 1,
+                "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+                "kategori": "Kamera",
+                "harga_per_hari": 125000,
+                "harga_per_3_hari": 250000,
+                "durasi": 5,
+                "harga_awal": 500000,
+                "diskon_persen": 5,
+                "diskon_nominal": 25000.0,
+                "harga_akhir": 475000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "L2L6WRAIZ3",
+        "username": "test55",
+        "waktu_transaksi": "31-10-2024 02:35:36",
+        "tanggal_kembali": "04-11-2024",
+        "durasi": 4,
+        "total_harga": 356250.0,
+        "items": [
+            {
+                "id_produk": 1,
+                "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+                "kategori": "Kamera",
+                "harga_per_hari": 125000,
+                "harga_per_3_hari": 250000,
+                "durasi": 4,
+                "harga_awal": 375000,
+                "diskon_persen": 5,
+                "diskon_nominal": 18750.0,
+                "harga_akhir": 356250.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "HC5WOCTZD9",
+        "username": "test55",
+        "waktu_transaksi": "31-10-2024 02:37:03",
+        "tanggal_kembali": "03-11-2024",
+        "durasi": 3,
+        "total_harga": 237500.0,
+        "items": [
+            {
+                "id_produk": 1,
+                "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+                "kategori": "Kamera",
+                "harga_per_hari": 125000,
+                "harga_per_3_hari": 250000,
+                "durasi": 3,
+                "harga_awal": 250000,
+                "diskon_persen": 5,
+                "diskon_nominal": 12500.0,
+                "harga_akhir": 237500.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "VCQZS1CQ19",
+        "username": "test55",
+        "waktu_transaksi": "31-10-2024 02:38:40",
+        "tanggal_kembali": "02-11-2024",
+        "durasi": 2,
+        "total_harga": 250000.0,
+        "items": [
+            {
+                "id_produk": 1,
+                "nama_produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+                "kategori": "Kamera",
+                "harga_per_hari": 125000,
+                "harga_per_3_hari": 250000,
+                "durasi": 2,
+                "harga_awal": 250000,
+                "diskon_persen": 0,
+                "diskon_nominal": 0.0,
+                "harga_akhir": 250000.0
+            }
+        ]
+    },
+    {
+        "id_transaksi": "BO69T18VZO",
+        "username": "test55",
+        "waktu_transaksi": "31-10-2024 02:48:44",
+        "tanggal_kembali": "25-11-2024",
+        "durasi": 25,
+        "total_harga": 3442500.0,
+        "items": [
+            {
+                "id_produk": 3,
+                "nama_produk": "Sony NEX VG-20 Handycam Video Camcorder (APSC)",
+                "kategori": "Kamera",
+                "harga_per_hari": 225000,
+                "harga_per_3_hari": 450000,
+                "durasi": 25,
+                "harga_awal": 3825000,
+                "diskon_persen": 10,
+                "diskon_nominal": 382500.0,
+                "harga_akhir": 3442500.0
+            }
+        ]
+    }
+]

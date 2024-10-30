@@ -1,0 +1,150 @@
+{
+    "Kategori": [
+        {
+            "Nama Kategori": "Kamera",
+            "Produk": [
+                {
+                    "ID": 1,
+                    "Nama Produk": "DSLR Canon 700D Termasuk Baterai, Charger, Memory Card 32GB, dan Tas",
+                    "Harga /hari": 125000,
+                    "Harga /3 hari": 250000
+                },
+                {
+                    "ID": 2,
+                    "Nama Produk": "DSLR Nikon D7200",
+                    "Harga /hari": 200000,
+                    "Harga /3 hari": 400000
+                },
+                {
+                    "ID": 3,
+                    "Nama Produk": "Sony NEX VG-20 Handycam Video Camcorder (APSC)",
+                    "Harga /hari": 225000,
+                    "Harga /3 hari": 450000
+                },
+                {
+                    "ID": 4,
+                    "Nama Produk": "GoPro Hero 9 Black Action (5K)",
+                    "Harga /hari": 300000,
+                    "Harga /3 hari": 500000
+                },
+                {
+                    "ID": 5,
+                    "Nama Produk": "RED Epic-X Super35mm Cinema (PL-mount/EF-mount) Full Paket",
+                    "Harga /hari": 2000000,
+                    "Harga /3 hari": 4000000
+                }
+            ]
+        },
+        {
+            "Nama Kategori": "Lensa",
+            "Produk": [
+                {
+                    "ID": 1,
+                    "Nama Produk": "Canon EF 14mm f/2.8 L II USM Lens",
+                    "Harga /hari": 250000,
+                    "Harga /3 hari": 500000
+                },
+                {
+                    "ID": 2,
+                    "Nama Produk": "Zeiss Otus T* 55mm f/1,4 ZE-mount for Canon",
+                    "Harga /hari": 400000,
+                    "Harga /3 hari": 800000
+                },
+                {
+                    "ID": 3,
+                    "Nama Produk": "Panasonic Lumix G 14mm f/2.5 ASPH (M43 Panasonic)",
+                    "Harga /hari": 50000,
+                    "Harga /3 hari": 100000
+                },
+                {
+                    "ID": 4,
+                    "Nama Produk": "Angenieux EZ-2 S35 15-40mm T2 // FF 22-60mm T3 Cine Zoom Lens (PL/EF-mount S35mm/FF)",
+                    "Harga /hari": 1750000,
+                    "Harga /3 hari": 3500000
+                },
+                {
+                    "ID": 5,
+                    "Nama Produk": "Laowa 24mm f/14 2x Macro Probe Lens Cine-Mod (PL-mount)",
+                    "Harga /hari": 900000,
+                    "Harga /3 hari": 1800000
+                }
+            ]
+        },
+        {
+            "Nama Kategori": "Tripod",
+            "Produk": [
+                {
+                    "ID": 1,
+                    "Nama Produk": "Monopod Video Benro S4",
+                    "Harga /hari": 50000,
+                    "Harga /3 hari": 100000
+                },
+                {
+                    "ID": 2,
+                    "Nama Produk": "Tripod Video SECCED Reach plus 3 Kit (100mm bowl head)",
+                    "Harga /hari": 200000,
+                    "Harga /3 hari": 400000
+                },
+                {
+                    "ID": 3,
+                    "Nama Produk": "RED Epic-X Acc - Sachtler Video 20 S1 HD MCF",
+                    "Harga /hari": 250000,
+                    "Harga /3 hari": 500000
+                },
+                {
+                    "ID": 4,
+                    "Nama Produk": "Benro Fluidhead S7 (for Benro MoveUp4)",
+                    "Harga /hari": 65000,
+                    "Harga /3 hari": 130000
+                },
+                {
+                    "ID": 5,
+                    "Nama Produk": "Tripod Manfrotto MK190XPRO4-BHQ2 / Leg MT190XPRO4 + Ball Head BHQ2 (90 Degree Tripod)",
+                    "Harga /hari": 60000,
+                    "Harga /3 hari": 120000
+                }
+            ]
+        },
+        {
+            "Nama Kategori": "Aksesoris",
+            "Produk": [
+                {
+                    "ID": 1,
+                    "Nama Produk": "Baterai V-Mount BP-190 14.8V 198Wh 13400mAh",
+                    "Harga /hari": 75000,
+                    "Harga /3 hari": 150000
+                },
+                {
+                    "ID": 2,
+                    "Nama Produk": "SDHC Samsung PRO 32GB UHS-I SD Memory Card (R:90MB/s W:80MB/s)",
+                    "Harga /hari": 25000,
+                    "Harga /3 hari": 50000
+                },
+                {
+                    "ID": 3,
+                    "Nama Produk": "Techart TZE-01 Sony E to Z-mount AutoFocus Lens Adapter",
+                    "Harga /hari": 125000,
+                    "Harga /3 hari": 250000
+                },
+                {
+                    "ID": 4,
+                    "Nama Produk": "Sony A7III LiquidEye Underwater Housing (C2060)",
+                    "Harga /hari": 750000,
+                    "Harga /3 hari": 1500000
+                },
+                {
+                    "ID": 5,
+                    "Nama Produk": "Sony Charger BC-QZ1 for NP-FZ100 Battery (A9 / A7III / A7RIII / A7R IV / A7S III / A7C / A6600)",
+                    "Harga /hari": 25000,
+                    "Harga /3 hari": 50000
+                },
+                {
+                    "ID": 6,
+                    "Nama Produk": "test1",
+                    "Harga /hari": 12000,
+                    "Harga /3 hari": 40000
+                }
+            ]
+        }
+    ]
+}
