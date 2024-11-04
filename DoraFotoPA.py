@@ -292,10 +292,9 @@ def katalog(tampil_menu=True):
         print(table)
     
     if tampil_menu:
-        sort() 
+        tanya_sort() 
 
 def sort():
-    os.system('cls' if os.name == 'nt' else 'clear')
     global pengguna_sekarang
     dt = load_data_produk()
     judul = 'MENU SORTING KATALOG'
@@ -328,8 +327,10 @@ def sort():
                 print("Katalog telah diurutkan berdasarkan Harga per 3 Hari")
             
             save_data_produk(dt)
-            katalog(show_menu=False)
+            katalog(tampil_menu=False)
         elif pilihan == '4':
+            for kategori in dt["Kategori"]:
+                kategori["Produk"].sort(key=lambda x: x["ID"])
             save_data_produk(dt)
             return
         else:
@@ -780,7 +781,7 @@ def menu_member():
             if pilihan == '1':
                 pencarian()
             elif pilihan == '2':
-                katalog(show_menu=True)
+                katalog(tampil_menu=True)
             elif pilihan == '3':
                 menu_transaksi()
             elif pilihan == '4':
