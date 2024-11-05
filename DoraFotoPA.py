@@ -111,17 +111,15 @@ def kunci_akun():
 
 def menu_utama():
     while True:
-        os.system('cls' if os.name == 'nt' else 'clear')  
-        
         # Dekorasi header
         teks_dekor = "dora"
-        panjang_header = 100
+        panjang_header = 50
         frame_header = '+{}+'.format('=' * ((panjang_header - len(teks_dekor)) // 2) + teks_dekor + '=' * ((panjang_header - len(teks_dekor)) // 2))
         
         print(frame_header)
-        print('|{:^100}|'.format('+        DORA FOTO         +'))
-        print('+' + '-'*100 + '+')
-        print('|{:^100}|'.format('RENTAL ALAT FOTOGRAFI SAMARINDA'))
+        print('|{:^50}|'.format('+        DORA FOTO         +'))
+        print('+' + '-'*50 + '+')
+        print('|{:^50}|'.format('RENTAL ALAT FOTOGRAFI SAMARINDA'))
         print(frame_header)
         print()
 
@@ -153,13 +151,10 @@ def menu_utama():
                 return  # Keluar
             else:
                 pesan1(pesan='TOLONG MASUKKAN BERUPA ANGKA 1-3.', lebar=50)
-                input("Tekan Enter untuk melanjutkan...")
         except (ValueError, KeyboardInterrupt):
             pesan1(pesan='INPUT TIDAK VALID. JANGAN TEKAN CTRL + C!', lebar=50)
-            input("Tekan Enter untuk melanjutkan...")
         except Exception as e:
             print(f"Error: {e}")
-            input("Tekan Enter untuk melanjutkan...")
 
 def login_admin():
     # Membersihkan
@@ -181,7 +176,8 @@ def login_admin():
             password = pwinput.pwinput("Masukkan password anda: ")
             
             if username in data_admin and data_admin[username] == password:
-                pesan2(pesan1='----LOGIN BERHASIL----', pesan2=f'Halo, Selamat Datang Bang {username}')
+                nama_kapital = username.capitalize()
+                pesan2(pesan1='----LOGIN BERHASIL----', pesan2=f'Halo, Selamat Datang Bang {nama_kapital}')
                 pengguna_sekarang = 'admin'
                 menu_admin()
                 break
@@ -302,51 +298,61 @@ def sort():
     frame = '+' + '=' * panjang + '+'
 
     while True:
-        print(frame)
-        print('|{:^{}}|'.format('+ ' + judul + ' +', panjang))
-        print('+' + '-' * panjang + '+')
-        print('|{:^5}|{:^{}}|'.format('1', 'Urutkan Berdasarkan ID', panjang - 6))
-        print('|{:^5}|{:^{}}|'.format('2', 'Urutkan Berdasarkan Harga per Hari', panjang - 6))
-        print('|{:^5}|{:^{}}|'.format('3', 'Urutkan Berdasarkan Harga per 3 Hari', panjang - 6))
-        print('|{:^5}|{:^{}}|'.format('4', 'Kembali', panjang - 6))
-        print(frame)
+        try:
+            print(frame)
+            print('|{:^{}}|'.format('+ ' + judul + ' +', panjang))
+            print('+' + '-' * panjang + '+')
+            print('|{:^5}|{:^{}}|'.format('1', 'Urutkan Berdasarkan ID', panjang - 6))
+            print('|{:^5}|{:^{}}|'.format('2', 'Urutkan Berdasarkan Harga per Hari', panjang - 6))
+            print('|{:^5}|{:^{}}|'.format('3', 'Urutkan Berdasarkan Harga per 3 Hari', panjang - 6))
+            print('|{:^5}|{:^{}}|'.format('4', 'Kembali', panjang - 6))
+            print(frame)
 
-        pilihan = input("Masukkan Pilihan Anda (1-4): ")
-        if pilihan in ['1', '2', '3']:
-            if pilihan == '1':
+            pilihan = input("Masukkan Pilihan Anda (1-4): ")
+            if pilihan in ['1', '2', '3']:
+                if pilihan == '1':
+                    for kategori in dt["Kategori"]:
+                        kategori["Produk"].sort(key=lambda x: x["ID"])
+                    print("Katalog telah diurutkan berdasarkan ID")
+                elif pilihan == '2':
+                    for kategori in dt["Kategori"]:
+                        kategori["Produk"].sort(key=lambda x: x["Harga /hari"])
+                    print("Katalog telah diurutkan berdasarkan Harga per Hari")
+                elif pilihan == '3':
+                    for kategori in dt["Kategori"]:
+                        kategori["Produk"].sort(key=lambda x: x["Harga /3 hari"])
+                    print("Katalog telah diurutkan berdasarkan Harga per 3 Hari")
+                
+                save_data_produk(dt)
+                katalog(tampil_menu=False)
+            elif pilihan == '4':
                 for kategori in dt["Kategori"]:
                     kategori["Produk"].sort(key=lambda x: x["ID"])
-                print("Katalog telah diurutkan berdasarkan ID")
-            elif pilihan == '2':
-                for kategori in dt["Kategori"]:
-                    kategori["Produk"].sort(key=lambda x: x["Harga /hari"])
-                print("Katalog telah diurutkan berdasarkan Harga per Hari")
-            elif pilihan == '3':
-                for kategori in dt["Kategori"]:
-                    kategori["Produk"].sort(key=lambda x: x["Harga /3 hari"])
-                print("Katalog telah diurutkan berdasarkan Harga per 3 Hari")
-            
-            save_data_produk(dt)
-            katalog(tampil_menu=False)
-        elif pilihan == '4':
-            for kategori in dt["Kategori"]:
-                kategori["Produk"].sort(key=lambda x: x["ID"])
-            save_data_produk(dt)
-            return
-        else:
-            pesan1(pesan='TOLONG MASUKKAN BERUPA ANGKA 1-4', lebar=50)
+                save_data_produk(dt)
+                return
+            else:
+                pesan1(pesan='TOLONG MASUKKAN BERUPA ANGKA 1-4', lebar=50)
+
+        except KeyboardInterrupt:
+            pesan1(pesan='INPUT TIDAK VALID. JANGAN TEKAN CTRL + C!', lebar=50)
+            continue 
 
 def tanya_sort():
     while True:
-        tanya = input("Apakah anda ingin mengurutkan katalog? (y/n): ").lower()
-        if tanya == 'y':
-            sort()
-            katalog()
-            break
-        elif tanya == 'n':
-            break
-        else:
-            pesan1(pesan='TOLONG MASUKKAN  BERUPA y ATAU n', lebar=50)
+        try:
+            tanya = input("Apakah anda ingin mengurutkan katalog? (y/n): ").lower()
+            if tanya == 'y':
+                sort()
+                katalog()
+                break
+            elif tanya == 'n':
+                break
+            else:
+                pesan1(pesan='TOLONG MASUKKAN BERUPA y ATAU n', lebar=50)
+        
+        except KeyboardInterrupt:
+            pesan1(pesan='INPUT TIDAK VALID. JANGAN TEKAN CTRL + C!', lebar=50)
+            continue 
 
 def add_produk():
     while True:
@@ -399,7 +405,7 @@ def add_produk():
                                 pesan1('NAMA PRODUK HARUS 2-50 KARAKTER.', sisa_coba=None, lebar=50)
                                 continue
                             if not (nama_produk.strip() and harga_hari.isdigit() and harga_3_hari.isdigit()):
-                                pesan1('INPUT TIDAK VALID. PASTIKAN FIELD TIDAK KOSONG!', sisa_coba=None, lebar=50)
+                                pesan2(pesan1='INPUT TIDAK VALID. PASTIKAN HARGA TIDAK KOSONG!', pesan2='ATAU BERUPA ANGKA',  panjang=50)
                                 continue
                             if not (100000000 >= int(harga_hari) >= 100 and 100000000 >= int(harga_3_hari) >= 100):
                                 pesan1('HARGA HARUS Rp. 100-100.000.000.', sisa_coba=None, lebar=50)
@@ -417,16 +423,15 @@ def add_produk():
                             
                             kategori["Produk"].append(produk_baru)
                             save_data_produk(data)
-                            pesan1('Produk Baru Berhasil Ditambahkan.', sisa_coba=None, lebar=50)
+                            pesan1('Produk Baru Berhasil Ditambahkan.', lebar=50)
                             return
                         
                         except (ValueError, KeyboardInterrupt):
-                            pesan1('INPUT TIDAK VALID. JANGAN TEKAN CTRL + C!', sisa_coba=None, lebar=50)
+                            pesan1('INPUT TIDAK VALID. JANGAN TEKAN CTRL + C!', lebar=50)
                             continue
                         except Exception as e:
                             print(f"Error: {e}")
                             continue
-                break
                 
         except Exception as e:
             print(f"Terjadi kesalahan: {e}")
@@ -652,14 +657,23 @@ def regs_member():
     print(frame)
     print()
 
-    nama = input("Masukkan Nama Lengkap Anda: ")
-    email = input("Masukkan Email Anda: ")
+    while True:
+        nama = input("Masukkan Nama Lengkap Anda: ")
+        if 5 < len(nama) <= 50: 
+            break
+        pesan2(pesan1='NAMA HARUS LEBIH DARI 5 HURUF DAN MAKSIMAL 50 HURUF', pesan2='SILAKAN COBA LAGI')
+
+    while True:
+        email = input("Masukkan Email Anda: ")
+        if 8 < len(email) <= 100:
+            break
+        pesan2(pesan1='EMAIL HARUS LEBIH DARI 8 KARAKTER DAN MAKSIMAL 100 KARAKTER', pesan2='SILAKAN COBA LAGI')
 
     while True:
         no_hp = input("Masukkan No. HP Anda: ")
-        if no_hp.isdigit() and len(no_hp) >= 10:
+        if no_hp.isdigit() and 10 <= len(no_hp) <= 20:
             break
-        pesan2(pesan1='NO. TELEPON HANYA BOLEH BERUPA ANGKA DAN MINIMAL BERJUMLAH 10 ANGKA', pesan2='SILAKAN COBA LAGI')
+        pesan2(pesan1='NO. TELEPON HANYA BOLEH BERUPA ANGKA DAN MINIMAL BERJUMLAH 10-20 ANGKA', pesan2='SILAKAN COBA LAGI')
 
     while True:
         username = input("Masukkan Username Anda (maks. 10 karakter): ")
@@ -725,7 +739,8 @@ def login_member():
                 if member["Username"] == username:
                     akun_terdaftar = True
                     if password == member["Password"]:
-                        pesan2(pesan1='----LOGIN BERHASIL----', pesan2=f'Halo, Selamat Datang Kak {username}')
+                        nama_kapital = username.capitalize()
+                        pesan2(pesan1='----LOGIN BERHASIL----', pesan2=f'Halo, Selamat Datang Kak {nama_kapital}')
                         sdh_login = True
                         pengguna_sekarang = 'member'
                         break
