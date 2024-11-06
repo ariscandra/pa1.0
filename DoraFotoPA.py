@@ -113,13 +113,13 @@ def menu_utama():
     while True:
         # Dekorasi header
         teks_dekor = "dora"
-        panjang_header = 50
+        panjang_header = 100
         frame_header = '+{}+'.format('=' * ((panjang_header - len(teks_dekor)) // 2) + teks_dekor + '=' * ((panjang_header - len(teks_dekor)) // 2))
         
         print(frame_header)
-        print('|{:^50}|'.format('+        DORA FOTO         +'))
-        print('+' + '-'*50 + '+')
-        print('|{:^50}|'.format('RENTAL ALAT FOTOGRAFI SAMARINDA'))
+        print('|{:^100}|'.format('+        DORA FOTO         +'))
+        print('+' + '-'*100 + '+')
+        print('|{:^100}|'.format('RENTAL ALAT FOTOGRAFI SAMARINDA'))
         print(frame_header)
         print()
 
@@ -148,7 +148,7 @@ def menu_utama():
                 continue  # Balik ke awal loop
             elif pilihan == '3':
                 pesan2()
-                return  # Keluar
+                break  # Keluar
             else:
                 pesan1(pesan='TOLONG MASUKKAN BERUPA ANGKA 1-3.', lebar=50)
         except (ValueError, KeyboardInterrupt):
@@ -691,7 +691,7 @@ def regs_member():
             password2 = pwinput.pwinput("Masukkan Password Anda Lagi: ")
             if password1 == password2:
                 break
-            pesan1(pesan='PASSWORD TIDAK COCOK, SILAKAN MASUKKAN LAGI',  sisa_coba=None)
+            pesan1(pesan='PASSWORD BERBEDA, SILAKAN MASUKKAN LAGI',  sisa_coba=None)
         else:
             pesan2(pesan1='PASSWORD HARUS TERDIRI DARI HURUF ATAU ANGKA', pesan2='DAN TIDAK BOLEH MELEBIHI 8 KARAKTER')
 
@@ -966,7 +966,7 @@ def checkout():
     lihat_keranjang()
     
     try:
-        konfirmasi = input("\nLanjutkan checkout? (y/n): ").lower()
+        konfirmasi = input("\nLanjut ke Proses Pembayaran? (y/n): ").lower()
         if konfirmasi != 'y':
             return
             
@@ -1077,7 +1077,7 @@ def checkout():
         keranjang[username] = []
         save_keranjang(keranjang)
         
-        print("\nCheckout berhasil!")
+        print("\nPembayaran berhasil!")
 
     except (ValueError, KeyboardInterrupt):
         pesan1('INPUT TIDAK VALID. JANGAN TEKAN CTRL + C!', sisa_coba=None, lebar=50)
@@ -1106,7 +1106,6 @@ def riwayat_transaksi():
         transaksi_member = [t for t in list_transaksi if t.get("username") == username]
 
         if not transaksi_member:
-            pesan1('TESTTT')
             return
 
         table = PrettyTable()
@@ -1142,7 +1141,7 @@ def riwayat_transaksi():
         print(f"Error: {str(e)}")
 
 def saldo():
-    judul = 'MENU SALDO'
+    judul = 'MENU E-MONEY'
     panjang = 50
     frame = '+' + '=' * panjang + '+'
 
@@ -1271,7 +1270,7 @@ def topup():
                 except ValueError:
                     pesan1('INPUT TIDAK VALID. HARAP MASUKKAN ANGKA YANG BENAR', sisa_coba=None, lebar=50)
                 except KeyboardInterrupt:
-                    pesan1('OPERASI DIBATALKAN', sisa_coba=None, lebar=50)
+                    pesan1('JANGAN TEKAN CTRL + C! OPERASI AKAN DIBATALKAN', sisa_coba=None, lebar=50)
                 except Exception as e:
                     print(f"Error: {e}")
                     return
