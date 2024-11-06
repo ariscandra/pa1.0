@@ -148,7 +148,7 @@ def menu_utama():
                 continue  # Balik ke awal loop
             elif pilihan == '3':
                 pesan2()
-                break  # Keluar
+                exit()
             else:
                 pesan1(pesan='TOLONG MASUKKAN BERUPA ANGKA 1-3.', lebar=50)
         except (ValueError, KeyboardInterrupt):
