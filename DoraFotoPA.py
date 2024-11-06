@@ -658,13 +658,13 @@ def regs_member():
     print()
 
     while True:
-        nama = input("Masukkan Nama Lengkap Anda: ")
+        nama = input("Masukkan Nama Lengkap Anda: ").strip()
         if 5 < len(nama) <= 50: 
             break
         pesan2(pesan1='NAMA HARUS LEBIH DARI 5 HURUF DAN MAKSIMAL 50 HURUF', pesan2='SILAKAN COBA LAGI')
 
     while True:
-        email = input("Masukkan Email Anda: ")
+        email = input("Masukkan Email Anda: ").strip()
         if 8 < len(email) <= 100:
             break
         pesan2(pesan1='EMAIL HARUS LEBIH DARI 8 KARAKTER DAN MAKSIMAL 100 KARAKTER', pesan2='SILAKAN COBA LAGI')
