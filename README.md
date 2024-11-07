@@ -13,7 +13,7 @@
   - [Menu Utama](#menu-utama)
   - [Login Administrator](#login-administrator)
   - [Menu Admin](#menu-admin)
-  - [Menu Apakah Member?](#menu-apakah-member?)
+  - [Menu Apakah Member](#menu-apakah-member)
   - [Menu Member](#menu-member)
 
 ## 👥 Profil
