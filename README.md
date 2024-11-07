@@ -88,9 +88,11 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 </details>
 
 ## 🖥️ Penjelasan Output
-### Menu Utama
+<details>
+<summary><h3>Menu Utama</h3></summary>
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/6d97fbaa-ff68-41eb-a34b-67ef45aeb1a6" alt="" width="500px">
+  <img src="https://github.com/user-attachments/assets/6d97fbaa-ff68-41eb-a34b-67ef45aeb1a6" alt="Menu Utama Image" width="500px">
 </div>
 
 <p align="justify">Gambar di atas adalah tampilan yang akan menyambut pengguna untuk pertama kalinya setiap program dijalankan, yaitu menu utama. Menu utama terdapat 3 pilihan.</p>
@@ -106,7 +108,7 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/bfff8ad4-9dc9-47b3-ad06-c35dd4514e25" alt="" width="300px">
-</div> <br>
+</div>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c2753377-6820-4bfc-9c3f-f6fd03f32e13" alt="" width="300px">
 </div>
@@ -114,19 +116,23 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 **4. Pengguna Memasukkan Selain 1-3**
 <p align="justify">Jika pengguna memasukkan selain 1-3 dan input mereka tidak valid, maka program akan memberikan pesan error, dan pengguna akan mengulangi input.</p>
 
-### Login Administrator
+</details>
+
+<details>
+<summary><h3>Login Administrator</h3></summary>
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/1d415bb1-47af-4940-9ed1-ed17d4b05a96" alt="" width="500px">
+  <img src="https://github.com/user-attachments/assets/1d415bb1-47af-4940-9ed1-ed17d4b05a96" alt="Login Administrator Image" width="500px">
 </div>
 
-**1. Jika Validasi Benar**
+**1. Berhasil Validasi**
 <p align="justify">Jika pengguna berhasil melakukan login, memasukkan input sesuai dengan data admin di dictionary, maka pengguna akan diberi pesan login berhasil dan dialihkan ke menu admin.</p>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f57d09fc-9569-44ba-bc8f-0aeb59331d9d" alt="" width="500px">
 </div>
 
-**2. Jika Validasi Salah**
+**2. Gagal Validasi**
 <p align="justify">Jika pengguna gagal melakukan login, karena proses validasi gagal. Maka, akan muncul pesan login gagal dan pengguna akan mengulangi proses login, percobaan login berjumlah 3x setiap login dimulai dari awal yaitu melalui menu utama.</p>
 
 <div align="center">
@@ -135,3 +141,75 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 
 **3. Sisa Coba Habis**
 <p align="justify">Jika sisa percobaan login pengguna habis atau 0. Maka, akan muncul pesan bahwa akun mereka dikunci, dan pengguna dapat kembali ke program setelah menunggu 3 detik. Kemudian, pengguna akan dialihkan ke menu utama lagi.</p>
+
+</details>
+
+<details>
+  <summary><h3>Menu Admin</h3></summary>
+
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/d0d8e6ae-108b-4bdd-aa5a-eb5c43b61b2b" alt="" width="500px">
+  </div>
+  <p align="justify">Dalam menu ini terdapat 6 opsi yang bisa admin pilih, yaitu sebagai berikut penjelasannya:</p>
+
+  **1. Cari Produk**
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/0f8ad26d-61a5-4e70-afaa-e6f008efccde" alt="" width="500px">
+  </div>
+  <p align="justify">Jika admin memilih 1, maka fungsi pencarian akan berjalan, admin diminta memasukkan kata kunci produk yang ingin dicari, bisa dalam bentuk nama produk, harga, atau nama kategorinya. Setelah itu, tabel produk hasil pencarian yang sesuai dengan kata kunci yang dimasukkan akan keluar.</p>
+
+  **2. Lihat Katalog**
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/eea591d5-bfcb-4de3-a1f9-48dc977dea3a" alt="" width="500px">
+  </div>
+  <p align="justify">Jika admin memilih 2, maka program akan memanggil semua daftar produk yang ada dalam bentuk tabel prettytable.</p>
+
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/9946b897-e879-49a9-ab83-e98d6dbba485" alt="" width="500px">
+  </div>
+  <p align="justify">Setelah katalog ditampilkan, maka admin akan ditanya apakah produk ingin menyorting daftar produk. Jika admin memasukkan y, maka menu sorting akan ditampilkan, dan jika admin memasukkan n, maka akan kembali ke menu sebelumnya.</p>
+
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/6625d4fc-867b-4a30-a195-a37fa52c3c4f" alt="" width="500px">
+  </div>
+  <p align="justify">Menu sorting terdapat beberapa pilihan, yaitu mengurutkan berdasarkan id, harga per hari, dan harga per 3 hari. Saat admin memilih opsi kembali, maka tabel produk akan otomatis kembali seperti semula.</p>
+
+  **3. Tambah, Update, dan Hapus Produk**
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/ee762316-249b-4a56-b6dc-6f50717b5f3c" alt="" width="300px">
+  </div>
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/f5faa9d1-2dc5-499a-a8ae-6878b4961ef5" alt="" width="300px">
+  </div>
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/ebd001b3-4840-4f35-9367-79fccfeb20c1" alt="" width="300px">
+  </div>
+  <p align="justify">Mekanisme penambahan, pengubahan, dan penghapusan produk 11 12 sama. Pertama-tama, program akan menampilkan menu sesuai dengan operasi yang admin pilih. Perbedaan dalam data apa yang diambil melalui input mungkin yang sedikit berbeda, bisa dilihat dalam gambar-gambar di bawah.</p>
+
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/e269c9b0-74d1-4d44-ad86-80c3ca0998a4" alt="" width="300px">
+  </div>
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/bb85a0cd-235e-4ce7-8e22-3cc1aa8a132b" alt="" width="300px">
+  </div>
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/397a4eed-2761-4e22-8c90-778f63970a41" alt="" width="300px">
+  </div>
+  <p align="justify">Jika admin ingin menambahkan produk, maka yang akan diminta masukkan adalah nama produk, harga produk per harinya, dan harga produk per 3 harinya. Jika admin ingin mengupdate produk, maka input yang diminta berupa id produk yang ingin diubah, kemudian nama produk dan kedua harganya yang baru, admin juga bisa mengosongkan field input kalau tidak ingin mengubah data produk. Jika admin ingin menghapus, maka yang hanya diminta adalah id dari produk.</p>
+  <p align="justify">Ketika operasi berhasil dijalankan berdasarkan ketentuan yang ada, maka program akan memberi pesan bahwa operasi tersebut berhasil.</p>
+
+  **4. Logout**
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/f498e40b-139f-4c98-b3f0-4c67cff98f7e" alt="" width="300px">
+  </div>
+  <p align="justify">Jika pengguna memilih opsi logout, maka program akan mengalihkan pengguna kembali ke menu utama. Program juga akan memberi ucapan terimakasih untuk administrator.</p>
+
+  **5. Jika Memilih selain 1-6 atau Tidak Valid**
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/4a714a2d-bcb2-467b-b57b-b1078fbf641e" alt="" width="300px">
+  </div>
+  <p align="justify">Jika pengguna memasukkan selain 1-6 dan input mereka tidak valid, maka program akan memberikan pesan error, dan pengguna akan mengulangi input.</p>
+
+</details>
+
+### Menu Apakah Member
