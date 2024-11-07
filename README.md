@@ -10,11 +10,6 @@
 - [🚀 Tentang](#-tentang)
 - [📖 Flowchart](#-flowchart)
 - [🖥️ Penjelasan Output](#️-penjelasan-output)
-  - [Menu Utama](#menu-utama)
-  - [Login Administrator](#login-administrator)
-  - [Menu Admin](#menu-admin)
-  - [Menu Apakah Member](#menu-apakah-member)
-  - [Menu Member](#menu-member)
 
 ## 👥 Profil
 **Kelompok 3**
@@ -332,6 +327,11 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 
 </details>
 
-[⬆️ Kembali ke Awal](#top)
+---
+> [!NOTE]
+> **🎉 Terimakasih! 🎉**
+> Kepada abang, mba, dan rekan semua yang sudah membantu kami dalam menyelesaikan proyek ini 🙏
 
+---
+[⬆️ Kembali ke Awal](#top)
 <img src="https://github.com/user-attachments/assets/5a226224-062e-447a-8e3e-1c97d76ea9da" alt="" width="100%">
