@@ -1,4 +1,5 @@
 <img src="https://github.com/user-attachments/assets/dd22e8db-6073-4cd4-a2e1-b16451933f85" alt="" width="100%">
+<a name="top"></a>
 
 <p align="center">
     Selamat Datang di Panduan Program Sistem Manajemen Rental Peralatan Fotografi DORA FOTO!  
@@ -286,23 +287,37 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 
 **2. E-Money**
 <div align="center">
-  <img src="" alt="" width="300px">
+  <img src="https://github.com/user-attachments/assets/e23c9137-7011-4eb5-a4d3-137eabd2c4f1" alt="" width="300px">
 </div>
-<p align="justify"></p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/55fc189c-f857-4c5e-9080-132ac5fabb99" alt="" width="300px">
+</div>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/69cb42b5-9afb-45c7-bed2-e0a850057c8e" alt="" width="300px">
+</div>
+<p align="justify">Jika pengguna memilih 4 di menu member, maka akan dialihkan ke menu e-emoney, yang isinya opsi pengguna untuk melihat saldo dan melakukan topup. Pengguna akan diminta memasukkan password lagi jika ingin melakukan kedua aksi tersebut. Dalam opsi melakukan topup, program akan menampilkan menu nominal yang bisa dipilih oleh pengguna, jika semua input sesuai dengan ketentuan yang berada, maka nominal topup akan ditambahkan ke saldo pengguna.</p>
+
 
 **3. S&K Dora Foto**
 <div align="center">
-  <img src="" alt="" width="300px">
+  <img src="https://github.com/user-attachments/assets/b6bbc08a-ae91-4016-a0c9-3a8e919fc050" alt="" width="400px">
 </div>
-<p align="justify"></p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/13947d44-2d8b-4dd8-a6a2-308d0c17329b" alt="" width="400px">
+</div>
+<p align="justify">Jika pengguna memilih 5 di menu member, maka program akan memanggil teks syarat dan ketentuan dari jasa rental kami.</p>
 
 **4. Logout**
-<p align="justify"></p>
-
-**5. Jika Selain 1-6 atau Tidak Valid**
 <div align="center">
-  <img src="" alt="" width="300px">
+  <img src="https://github.com/user-attachments/assets/d9dcdd05-542f-4137-93e5-d4923957f94c" alt="" width="300px">
 </div>
-<p align="justify"></p>
+<p align="justify">Jika pengguna memilih 6 di menu member, maka program akan memberi pesan sampai jumpa, dan pengguna akan kembali ke menu apakah member.</p>
 
+**5. Jika Memilih Selain 1-6 atau Tidak Valid**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3f03c497-da14-4abf-ae5c-14618eeb5264" alt="" width="300px">
+</div>
+<p align="justify">Jika pengguna memasukkan selain 1-6 atau input yang dimasukkan tidak valid,  maka program akan memberikan pesan error dan pengguna diminta untuk mengulangi input.</p>
+
+[Kembali ke Awal](#top)
 <img src="https://github.com/user-attachments/assets/5a226224-062e-447a-8e3e-1c97d76ea9da" alt="" width="100%">
