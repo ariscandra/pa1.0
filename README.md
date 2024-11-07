@@ -88,3 +88,50 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 </details>
 
 ## 🖥️ Penjelasan Output
+### Menu Utama
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6d97fbaa-ff68-41eb-a34b-67ef45aeb1a6" alt="" width="500px">
+</div>
+
+<p align="justify">Gambar di atas adalah tampilan yang akan menyambut pengguna untuk pertama kalinya setiap program dijalankan, yaitu menu utama. Menu utama terdapat 3 pilihan.</p>
+
+**1. Administrator Dora Foto**
+<p align="justify">Jika pengguna memilih 1, maka akan diarahkan ke login untuk masuk ke menu administrator.</p>
+
+**2. Member Dora Foto**
+<p align="justify">Jika pengguna memilih 2, maka akan di arahkan ke menu yang menanyakan apakah pengguna adalah member atau tidak.</p>
+
+**3. Keluar**
+<p align="justify">Jika pengguna memilih 3, maka akan program akan berhenti berjalan.</p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bfff8ad4-9dc9-47b3-ad06-c35dd4514e25" alt="" width="300px">
+</div> <br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c2753377-6820-4bfc-9c3f-f6fd03f32e13" alt="" width="300px">
+</div>
+
+**4. Pengguna Memasukkan Selain 1-3**
+<p align="justify">Jika pengguna memasukkan selain 1-3 dan input mereka tidak valid, maka program akan memberikan pesan error, dan pengguna akan mengulangi input.</p>
+
+### Login Administrator
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1d415bb1-47af-4940-9ed1-ed17d4b05a96" alt="" width="500px">
+</div>
+
+**1. Jika Validasi Benar**
+<p align="justify">Jika pengguna berhasil melakukan login, memasukkan input sesuai dengan data admin di dictionary, maka pengguna akan diberi pesan login berhasil dan dialihkan ke menu admin.</p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f57d09fc-9569-44ba-bc8f-0aeb59331d9d" alt="" width="500px">
+</div>
+
+**2. Jika Validasi Salah**
+<p align="justify">Jika pengguna gagal melakukan login, karena proses validasi gagal. Maka, akan muncul pesan login gagal dan pengguna akan mengulangi proses login, percobaan login berjumlah 3x setiap login dimulai dari awal yaitu melalui menu utama.</p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/18077183-9cb4-4733-b7bd-52c22bf4ac51" alt="" width="500px">
+</div>
+
+**3. Sisa Coba Habis**
+<p align="justify">Jika sisa percobaan login pengguna habis atau 0. Maka, akan muncul pesan bahwa akun mereka dikunci, dan pengguna dapat kembali ke program setelah menunggu 3 detik. Kemudian, pengguna akan dialihkan ke menu utama lagi.</p>
