@@ -243,4 +243,66 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 <p align="justify">Jika pengguna memasukkan angka selain 1-3 atau memasukkan input yang tidak valid, maka program akan memberi pesan error dan pengguna akan diminta mengulangi proses input.</p>
 
 </details>
-  
+
+<h3>Menu Member</h3>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/32820178-4c74-4ee6-9a01-8f76590bbdaf" alt="" width="500px">
+</div>
+
+<p align="justify">Pengguna akan masuk ke menu member bila sebelumnya berhasil melakukan login. Dalam menu ini, terdapat 6 pilihan, ada opsi cari produk dan lihat katalog yang mekanismenya sama seperti di menu admin. Kemudian ada pilihan transaksi, e-money, s&k dora foto, dan terakhir, logout.</p>
+
+**1. Transaksi**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ba386dc6-4978-4066-8dd7-3ccfd31ae358" alt="" width="300px">
+</div>
+<p align="justify">Jika pengguna memilih 3 di menu member, maka akan diarahkan ke menu transaksi. Dalam menu ini, terdapat 5 pilihan yaitu untuk menambahkan produk ke keranjang, melihat keranjang, melanjutkan proses pembayaran, riwayat transaksi, dan kembali ke menu member.</p>
+
+* Tambah ke Keranjang
+    <div align="center">
+      <img src="https://github.com/user-attachments/assets/6a915944-c2bf-442c-ad6e-c65cc084e29f" alt="" width="300px">
+    </div>
+    <p align="justify">Ketika pengguna ingin menambahkan produk ke keranjang, pengguna akan diminta memasukkan pilihan kategori produk mana yang ingin mereka taruh di keranjang. Setelah itu, program akan menampilkan daftar produk dalam kategori sesuai dengan yang pengguna pilih. Pengguna diminta untuk memasukkan id produk, 0 jika pengguna mau kembali, setelah pengguna menginput id produk yang diinginkan, program akan memberi pesan bahwa produk tersebut berhasil ditambahkan ke keranjang. Pengguna akan kembali ke menu pilihan kategori</p>
+* Lihat Keranjang
+    <div align="center">
+      <img src="https://github.com/user-attachments/assets/70b5164b-da97-41ae-a0aa-32362f91801e" alt="" width="300px">
+    </div>
+    <p align="justify">Dalam pilihan ini, program akan langsung menunjukkan isi dari keranjang dalam bentuk tabel menggunakan prettytable.</p>
+* Proses Pembayaran
+    <div align="center">
+      <img src="https://github.com/user-attachments/assets/19257b35-cfd1-47e3-8153-30d8c28eab4b" alt="" width="300px">
+    </div>
+    <p align="justify">Program akan memastikan apakah pengguna yakin ingin melanjutkan ke proses pembayaran. Jika pengguna memasukkan y, maka program akan lanjut dengan meminta tanggal pengembalian barang yang disewa dalam format (dd-mm-yyyy). Setelah itu, program akan memvalidasi input dari pengguna, jika sesuai ketentuan, maka program akan mengkalkulasi apakah saldo dari pengguna mencukupi biaya transaksi. Kalau tidak, maka program akan memberi pesan bahwa saldo pengguna tidak mencukupi. Jika iya, maka struk transaksi akan dicetak. Pembayaran berhasil.</p>
+    <div align="center">
+      <img src="https://github.com/user-attachments/assets/a403aac7-7483-49c9-b2e4-c93d5b22f911" alt="" width="300px">
+    </div>
+    <p align="justify">Jika iya, maka struk transaksi akan dicetak. Pembayaran berhasil.</p>
+* Riwayat Transaksi
+    <div align="center">
+      <img src="https://github.com/user-attachments/assets/9088275f-3fbe-456e-8581-ab863e0717be" alt="" width="300px">
+    </div>
+    <p align="justify">Program akan menunjukkan secara langsung riwayat transaksi dalam bentuk tabel menggunakan prettytable.</p>
+* Kembali
+    <p align="justify">Pengguna akan kembali ke menu member jika memilih opsi untuk kembali.</p>
+
+**2. E-Money**
+<div align="center">
+  <img src="" alt="" width="300px">
+</div>
+<p align="justify"></p>
+
+**3. S&K Dora Foto**
+<div align="center">
+  <img src="" alt="" width="300px">
+</div>
+<p align="justify"></p>
+
+**4. Logout**
+<p align="justify"></p>
+
+**5. Jika Selain 1-6 atau Tidak Valid**
+<div align="center">
+  <img src="" alt="" width="300px">
+</div>
+<p align="justify"></p>
+
+<img src="https://github.com/user-attachments/assets/5a226224-062e-447a-8e3e-1c97d76ea9da" alt="" width="100%">
