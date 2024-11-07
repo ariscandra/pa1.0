@@ -1,5 +1,5 @@
-<img src="https://github.com/user-attachments/assets/dd22e8db-6073-4cd4-a2e1-b16451933f85" alt="" width="100%">
 <a name="top"></a>
+<img src="https://github.com/user-attachments/assets/dd22e8db-6073-4cd4-a2e1-b16451933f85" alt="" width="100%">
 
 <p align="center">
     Selamat Datang di Panduan Program Sistem Manajemen Rental Peralatan Fotografi DORA FOTO!  
@@ -10,6 +10,11 @@
 - [🚀 Tentang](#-tentang)
 - [📖 Flowchart](#-flowchart)
 - [🖥️ Penjelasan Output](#️-penjelasan-output)
+  - [Menu Utama](#menu-utama)
+  - [Login Administrator](#login-administrator)
+  - [Menu Admin](#menu-admin)
+  - [Menu Apakah Member?](#menu-apakah-member?)
+  - [Menu Member](#menu-member)
 
 ## 👥 Profil
 **Kelompok 3**
@@ -245,7 +250,9 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 
 </details>
 
-<h3>Menu Member</h3>
+<details>
+<summary><h3>Menu Member</h3></summary>
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/32820178-4c74-4ee6-9a01-8f76590bbdaf" alt="" width="500px">
 </div>
@@ -263,25 +270,30 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
       <img src="https://github.com/user-attachments/assets/6a915944-c2bf-442c-ad6e-c65cc084e29f" alt="" width="300px">
     </div>
     <p align="justify">Ketika pengguna ingin menambahkan produk ke keranjang, pengguna akan diminta memasukkan pilihan kategori produk mana yang ingin mereka taruh di keranjang. Setelah itu, program akan menampilkan daftar produk dalam kategori sesuai dengan yang pengguna pilih. Pengguna diminta untuk memasukkan id produk, 0 jika pengguna mau kembali, setelah pengguna menginput id produk yang diinginkan, program akan memberi pesan bahwa produk tersebut berhasil ditambahkan ke keranjang. Pengguna akan kembali ke menu pilihan kategori</p>
+
 * Lihat Keranjang
     <div align="center">
       <img src="https://github.com/user-attachments/assets/70b5164b-da97-41ae-a0aa-32362f91801e" alt="" width="300px">
     </div>
     <p align="justify">Dalam pilihan ini, program akan langsung menunjukkan isi dari keranjang dalam bentuk tabel menggunakan prettytable.</p>
+
 * Proses Pembayaran
     <div align="center">
       <img src="https://github.com/user-attachments/assets/19257b35-cfd1-47e3-8153-30d8c28eab4b" alt="" width="300px">
     </div>
     <p align="justify">Program akan memastikan apakah pengguna yakin ingin melanjutkan ke proses pembayaran. Jika pengguna memasukkan y, maka program akan lanjut dengan meminta tanggal pengembalian barang yang disewa dalam format (dd-mm-yyyy). Setelah itu, program akan memvalidasi input dari pengguna, jika sesuai ketentuan, maka program akan mengkalkulasi apakah saldo dari pengguna mencukupi biaya transaksi. Kalau tidak, maka program akan memberi pesan bahwa saldo pengguna tidak mencukupi. Jika iya, maka struk transaksi akan dicetak. Pembayaran berhasil.</p>
+
     <div align="center">
       <img src="https://github.com/user-attachments/assets/a403aac7-7483-49c9-b2e4-c93d5b22f911" alt="" width="300px">
     </div>
     <p align="justify">Jika iya, maka struk transaksi akan dicetak. Pembayaran berhasil.</p>
+
 * Riwayat Transaksi
     <div align="center">
       <img src="https://github.com/user-attachments/assets/9088275f-3fbe-456e-8581-ab863e0717be" alt="" width="300px">
     </div>
     <p align="justify">Program akan menunjukkan secara langsung riwayat transaksi dalam bentuk tabel menggunakan prettytable.</p>
+
 * Kembali
     <p align="justify">Pengguna akan kembali ke menu member jika memilih opsi untuk kembali.</p>
 
@@ -296,7 +308,6 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
   <img src="https://github.com/user-attachments/assets/69cb42b5-9afb-45c7-bed2-e0a850057c8e" alt="" width="300px">
 </div>
 <p align="justify">Jika pengguna memilih 4 di menu member, maka akan dialihkan ke menu e-emoney, yang isinya opsi pengguna untuk melihat saldo dan melakukan topup. Pengguna akan diminta memasukkan password lagi jika ingin melakukan kedua aksi tersebut. Dalam opsi melakukan topup, program akan menampilkan menu nominal yang bisa dipilih oleh pengguna, jika semua input sesuai dengan ketentuan yang berada, maka nominal topup akan ditambahkan ke saldo pengguna.</p>
-
 
 **3. S&K Dora Foto**
 <div align="center">
@@ -317,7 +328,10 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3f03c497-da14-4abf-ae5c-14618eeb5264" alt="" width="300px">
 </div>
-<p align="justify">Jika pengguna memasukkan selain 1-6 atau input yang dimasukkan tidak valid,  maka program akan memberikan pesan error dan pengguna diminta untuk mengulangi input.</p>
+<p align="justify">Jika pengguna memasukkan selain 1-6 atau input yang dimasukkan tidak valid, maka program akan memberikan pesan error dan pengguna diminta untuk mengulangi input.</p>
 
-[Kembali ke Awal](#top)
+</details>
+
+[⬆️ Kembali ke Awal](#top)
+
 <img src="https://github.com/user-attachments/assets/5a226224-062e-447a-8e3e-1c97d76ea9da" alt="" width="100%">
