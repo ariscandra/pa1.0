@@ -6,13 +6,12 @@
 
 ## 📚 Daftar Isi
 - [👥 Profil](#-profil)
-  - [Kelompok 3](#kelompok-3)
 - [🚀 Tentang](#-tentang)
 - [📖 Flowchart](#-flowchart)
 - [🖥️ Penjelasan Output](#️-penjelasan-output)
 
 ## 👥 Profil
-### Kelompok 3
+**Kelompok 3**
 
 | Aris Candra Muzaffar | Muhammad Romadhoni Alfatih | Muhammad Rafly |
 |----------------------|----------------------------|----------------|
