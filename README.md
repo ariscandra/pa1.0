@@ -1,5 +1,8 @@
 <img src="https://github.com/user-attachments/assets/dd22e8db-6073-4cd4-a2e1-b16451933f85" alt="" width="100%">
 
+## Table of Contents
+- [Profil Kami](#-profil-kami)
+
 # Profil Kami
 ## Kelompok 3
 - Aris Candra Muzaffar <br>
