@@ -1,7 +1,7 @@
 <img src="https://github.com/user-attachments/assets/dd22e8db-6073-4cd4-a2e1-b16451933f85" alt="" width="100%">
 
 <p align="center">
-    Selamat datang di Panduan Program Sistem Manajemen Rental Peralatan Fotografi DORA FOTO!  
+    Selamat Datang di Panduan Program Sistem Manajemen Rental Peralatan Fotografi DORA FOTO!  
 </p>
 
 ## 📚 Daftar Isi
