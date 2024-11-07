@@ -204,7 +204,7 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
   </div>
   <p align="justify">Jika pengguna memilih opsi logout, maka program akan mengalihkan pengguna kembali ke menu utama. Program juga akan memberi ucapan terimakasih untuk administrator.</p>
 
-  **5. Jika Memilih selain 1-6 atau Tidak Valid**
+  **5. Jika Memilih Selain 1-6 atau Tidak Valid**
   <div align="center">
     <img src="https://github.com/user-attachments/assets/4a714a2d-bcb2-467b-b57b-b1078fbf641e" alt="" width="300px">
   </div>
@@ -212,4 +212,35 @@ Program ini mendukung kemudahan dan keamanan bagi pengguna dalam mengakses layan
 
 </details>
 
-### Menu Apakah Member
+<details>
+<summary><h3>Menu Apakah Member</h3></summary>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c426c338-be61-4b12-a15b-987cca316e12" alt="Menu Apakah Member Image" width="500px">
+</div>
+
+<p align="justify">Pengguna akan ditujukan ke menu ini jika memilih 2 di menu utama. Di Dalam menu ini terdapat 3 opsi, yaitu registrasi member, login member, dan kembali ke menu utama.</p>
+
+**1. Ya (Login)**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8ccbe4d4-e9a1-46ec-a2fd-114a81ae78fc" alt="Login Image" width="300px">
+</div>
+<p align="justify">Jika pengguna memilih 1, maka akan diarahkan ke login member. Jika login berhasil divalidasi, maka pengguna akan di arahkan ke menu member.</p>
+
+**2. Tidak (Registrasi)**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ff1cd49c-d0e4-4219-be46-19c82c1f6051" alt="Registrasi Image" width="300px">
+</div>
+<p align="justify">Jika pengguna memilih 2, maka pengguna akan memulai proses registrasi sebagai member. Apabila seluruh field input sudah terisi sesuai dengan ketentuan, maka pengguna berhasil melakukan registrasi dan akan otomatis melakukan login setelahnya</p>
+
+**3. Kembali**
+<p align="justify">Jika pengguna memilih opsi 3, maka pengguna akan kembali ke menu sebelumnya, yakni menu utama.</p>
+
+**4. Jika Memilih Selain 1-3 atau Tidak Valid**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b7448b50-3cd0-4845-b85c-8cf631484d3c" alt="Error Message Image" width="300px">
+</div>
+<p align="justify">Jika pengguna memasukkan angka selain 1-3 atau memasukkan input yang tidak valid, maka program akan memberi pesan error dan pengguna akan diminta mengulangi proses input.</p>
+
+</details>
+  
